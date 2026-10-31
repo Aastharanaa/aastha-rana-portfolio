@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://yasirawaninfo-data.vercel.app/#person",
+      "name": "Muhammad Yasir",
+      "alternateName": "YasirAwan4831",
+      "url": "https://yasirawaninfo-data.vercel.app",
+      "image": "https://yasirawaninfo-data.vercel.app/profile.png",
+      "jobTitle": "Full Stack Web Developer | Data Analyst | Social Media Marketing Specialist | AI & Automation Enthusiast",
+      "description": "Full Stack Web Developer skilled in React, TypeScript, Next.js and modern backend technologies including Node.js, Express.js, MongoDB and Firebase. Also works as a Data Analyst using SQL, Python, Excel and Power BI to build interactive dashboards, and as a Social Media Marketing specialist managing brand growth, content strategy and audience engagement. Actively explores AI & Automation tools to build smart, efficient digital solutions.",
+      "sameAs": [
+        "https://github.com/YasirAwan4831",
+        "https://www.linkedin.com/in/yasirawan4831",
+        "https://www.youtube.com/@YasirAwan4831",
+        "https://yasirawaninfo.vercel.app",
+        "https://yasirawaninfo-ai.vercel.app"
+      ],
+      "knowsAbout": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Excel",
+        "Data Analytics",
+        "Business Intelligence",
+        "Dashboard Development",
+        "Full Stack Web Development",
+        "Frontend Development",
+        "Backend Development",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "REST API Development",
+        "MongoDB",
+        "Firebase",
+        "Social Media Marketing",
+        "Social Media Management",
+        "Content Strategy",
+        "Brand Growth",
+        "Audience Engagement",
+        "AI Automation",
+        "Prompt Engineering",
+        "Portfolio Development",
+        "SEO"
+      ],
+      "knowsLanguage": ["en", "ur"],
+      "hasOccupation": [
+{
+  "@type": "Occupation",
+  "name": "Data Analyst",
+  "skills": "Python, SQL, Power BI, Excel, Tableau, Data Visualization, Statistics"
+},
+{
+  "@type": "Occupation",
+  "name": "Data Scientist",
+  "skills": "Python, Machine Learning, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy"
+},
+{
+  "@type": "Occupation",
+  "name": "AI/ML Engineer",
+  "skills": "Deep Learning, Computer Vision, NLP, PyTorch, TensorFlow, Flask, FastAPI"
+},
+{
+  "@type": "Occupation",
+  "name": "Python Developer",
+  "skills": "Python, FastAPI, Flask, REST APIs, ETL, MySQL, Git, GitHub"
+}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yasirawaninfo-data.vercel.app/#website",
+      "url": "https://yasirawaninfo-data.vercel.app",
+      "name": "Aastha Rana | Data Analytics Portfolio",
+      "description": "Professional Data Analytics Portfolio of Aastha Rana featuring SQL, Python, Power BI, Excel, interactive dashboards, internship projects, certificates, GitHub repositories, and technical growth.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://yasirawaninfo-data.vercel.app/#person" },
+      "author": { "@id": "https://yasirawaninfo-data.vercel.app/#person" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://yasirawaninfo-data.vercel.app/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://yasirawaninfo-data.vercel.app/#profilepage",
+      "url": "https://yasirawaninfo-data.vercel.app",
+      "name": "Muhammad Yasir | Data Analytics Portfolio",
+      "isPartOf": { "@id": "https://yasirawaninfo-data.vercel.app/#website" },
+      "about": { "@id": "https://yasirawaninfo-data.vercel.app/#person" },
+      "primaryImageOfPage": "https://yasirawaninfo-data.vercel.app/profile.png"
+    }
+  ]
+}
